@@ -10,10 +10,10 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main():
-    print("questao 4")
-
-
-    
+def main ():
+    dias = int(input('Quantos dias alugados?'))
+    km = float(input('Quantos km rodados?'))
+    pago = (dias * 60) + (km * 0.15)
+    print('O total a pagar é de R${:.2f}'.format(pago))
 if __name__ == '__main__':
     main()
