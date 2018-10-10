@@ -12,10 +12,13 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
-def main():
-    print("questao 5")
+def main ():
+    qntCigarros = int(input("Qnts cigarros por dia: "))
+    anosFumando = int(input("Anos fumando: "))
 
+    totalCigarros = (anosFumando * 365) * qntCigarros
+    diasPerdidos = (totalCigarros * 10) / 24
 
-    
+    print('Dias perdidos %d' % diasPerdidos)
 if __name__ == '__main__':
     main()
