@@ -10,9 +10,14 @@
 # Para a correta execução do programa, a estrutura atual deve ser mantida,
 # substituindo apenas o comando print(questão...) existente.
 ##
+from math import *
 def main ():
-    pi = 3.141592
     raio = float(input("digite o valor do raio: "))
-    print ("a area do circulo e: %.2f" % float(pi*(raio**2)))
+    area = pi * raio**2
+    print(area)
+    diametro = raio * 2
+    print(diametro)
+    comprimento = 2 * pi * raio
+    print(comprimento)
 if __name__ == '__main__':
     main()
