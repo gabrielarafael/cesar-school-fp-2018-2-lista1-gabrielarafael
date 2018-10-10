@@ -11,9 +11,9 @@
 # substituindo apenas o comando print(questão...) existente.
 ##
 def main():
-    print("questao 2")
+    c = int(input("Digite a temperatua em Celsius: "))
+    f = 9 * c / 5 + 32
 
-
-
+    print('%d Fahrenheit' % f)
 if __name__ == '__main__':
     main()
